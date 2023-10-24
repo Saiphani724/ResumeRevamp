@@ -1,0 +1,54 @@
+Intern Software Engineer - Pearson
+Why join Pearson’s intern program?
+
+Pearson is the world’s learning company. We help people of all ages acquire the knowledge and skills they need to be successful in their work and careers. We believe that everyone should be able to keep learning, every day and in every way, throughout their lives. Bringing together everything we know about the science of learning and the latest technology; we’re shaping the future of teaching and learning.
+
+We’re looking for the next generation of talented undergraduates to join our team for an unforgettable 10-week internship. An internship at Pearson is an opportunity to bring your own unique perspective as a learner, together with your academic knowledge, technical skills, and enthusiasm, to help create products used by students like you.
+
+As one of our interns, you will gain a comprehensive introduction to our business. You’ll be assigned to a team and work on real-life projects that bring our qualification delivery and services to life. Support in the role, in job training and professional development will be provided to enable you to contribute to the business. You’ll also have direct access to a senior member of the team, as each intern will be mentored to help you make the most of the 10-week program.
+
+We foster a work environment that’s inclusive as well as diverse, where our people can be themselves. Every idea and perspective are valued so that our products reflect the people we serve — our teachers and learners.
+
+What Does the Internship Program Offer?
+
+Successful candidates will spend 10 weeks working with our Technology teams.
+
+You will be paid for the duration of your internship. The internship begins on Monday, June 3rd and ends Friday, August 9th.
+
+*Job Description  *
+
+As an Intern, you will get an opportunity to work with skilled team of software engineers and assist in implementing new features and write unit test cases. You will also be working with technical leads and will gain practical experience with a wide variety of software engineering tasks and technologies.
+
+Interns will develop a broad knowledge of Software Development and Software Engineering at Pearson. You will have an opportunity to work with teams from all over the world. An ideal fit for this role would be a person who can thrive in fast paced environment willing to take on new challenges.
+
+You will get an opportunity to work on projects that are already in production. You will have an assigned mentor who will help you with your assignments. Our development environment uses AWS infrastructure, React, Node.js, JavaScript, Java, Git (Bitbucket), Jenkins. You will also get an opportunity to work on product built using design pattern Micro Frontend, Microservice’s.
+
+Minimum Requirements
+
+Enrolled in an undergraduate degree in Information Science / Information Technology, Computer Science, Engineering, or a related field
+
+Deep knowledge of JavaScript or ReactJS, writing maintainable, reusable code.
+
+Experience with HTML/CSS, including concepts like cross-browser support, theming, and accessibility.
+
+Understanding of code versioning tools, such as GIT.
+
+Strong fundamentals and problem-solving skills.
+
+Communicate equally clearly in writing, code, and speech.
+
+Graduation date of May 2025
+
+Must be able to work hybrid; in-person/remote at our Durham office for the entire 10-weeks
+
+Pearson is an Equal Opportunity and Affirmative Action Employer and a member of E-Verify. All qualified applicants, including minorities, women, protected veterans, and individuals with disabilities are encouraged to apply.
+
+What to expect from Pearson
+
+Did you know Pearson is one of the 10 most innovative education companies of 2022?
+
+At Pearson, we add life to a lifetime of learning so everyone can realize the life they imagine. We do this by creating vibrant and enriching learning experiences designed for real-life impact. We are on a journey to be 100 percent digital to meet the changing needs of the global population by developing a new strategy with ambitious targets. To deliver on our strategic vision, we have five business divisions that are the foundation for the long-term growth of the company: Assessment & Qualifications, Virtual Learning, English Language Learning, Workforce Skills and Higher Education. Alongside these, we have our corporate divisions: Digital & Technology, Finance, Global Corporate Marketing & Communications, Human Resources, Legal, Strategy and Direct to Consumer. Learn more at We are Pearson.
+
+We value the power of an inclusive culture and also a strong sense of belonging. We promote a culture where differences are embraced, opportunities are accessible, consideration and respect are the norm and all individuals are supported in reaching their full potential. Through our talent, we believe that diversity, equity and inclusion make us a more innovative and vibrant place to work. People are at the center, and we are committed to building a workplace where talent can learn, grow and thrive.
+
+Pearson is an Affirmative Action and Equal Opportunity Employer and a member of E-Verify. We want a team that represents a variety of backgrounds, perspectives and skills. The more inclusive we are, the better our work will be. All employment decisions are based on qualifications, merit and business need. All qualified applicants will receive consideration for employment without regard to race, ethnicity, color, religion, sex, sexual orientation, gender identity, gender expression, age, national origin, protected veteran status, disability status or any other group protected by law. We strive for a workforce that reflects the diversity of our communities.
