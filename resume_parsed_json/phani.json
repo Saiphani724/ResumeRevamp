@@ -1,0 +1,144 @@
+{
+  "personal_details": {
+    "name": "Sai Phani Pallapothu",
+    "location": "Reston, Virginia, United States",
+    "phone": "+1-934-221-8554",
+    "email": "saiphani724@gmail.com",
+    "linkedin": "linkedin.com/in/sai-phani-p",
+    "github": "github.com/Saiphani724"
+  },
+  "education": [
+    {
+      "school/university": "Stony Brook University",
+      "duration_years": "August 2022 - December 2023",
+      "gpa": "3.84/4",
+      "courses": "Teaching Assistant for CSE 337: Scripting Languages; Ranked #24/78 @ ICPC Greater NY Regionals 2022"
+    },
+    {
+      "school/university": "Amrita School of Engineering",
+      "duration_years": "June 2017 - June 2021",
+      "gpa": "9.1/10 with Distinction",
+      "courses": "Coimbatore, India"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "Lean Innovation Labs",
+      "duration": "May 2023 - Present",
+      "summary": "Full Stack Developer Intern"
+    },
+    {
+      "company_name": "Microsoft",
+      "duration": "July 2021 - August 2022",
+      "summary": "Software Development Engineer"
+    },
+    {
+      "company_name": "Microsoft",
+      "duration": "Jan 2021 - June 2021",
+      "summary": "Software Development Engineer Intern"
+    },
+    {
+      "company_name": "Microsoft",
+      "duration": "May 2020 - July 2020",
+      "summary": "Software Development Engineer Intern"
+    }
+  ],
+  "projects": [
+    {
+      "name": "CodeOnDroid",
+      "technologies": "Java, Android, XML, Firebase",
+      "summary": "A mobile “Compiler and Editor” Android application with language-specific custom keyboards for popular programming languages like Python, Java, C++ and C along with variable tracking, etc features for programming with ease."
+    },
+    {
+      "name": "Quiz App",
+      "technologies": "MERN Stack, ReactJs, Javascript, HTML, NodeJs, MongoDB",
+      "summary": "An online Quiz Application platform for students to attempt quizzes created by their faculty while also making use of features like auto evaluation, scorecard viewer, online discussion portal, previous quiz analysis etc."
+    },
+    {
+      "name": "Bug Fixing Assistance Portal",
+      "technologies": "ReactJs, HTML, Java backend, Http Servlet, Apache Tomcat, XML",
+      "summary": "A portal to connect users and technical support in order to update users on bugs that need to be addressed and solved."
+    },
+    {
+      "name": "PASTA Inference Classification",
+      "technologies": "NLP, Python, TensorFlow, Language Modeling, RoBERTa, T5",
+      "summary": "A model to classify if the given story warrants the given inference statement. Models are trained to understand the world state for the given story to predict whether the world state is consistent with the inference statement."
+    },
+    {
+      "name": "Shadow Removal using Diffusion",
+      "technologies": "Computer Vision, Python, Pytorch, Transformers, Diffusion",
+      "summary": "A deep learning model that removes the shadow in an image and restores the image contents using Diffusion technique."
+    }
+  ],
+  "technical_skills": {
+    "languages": [
+      "JavaScript",
+      "TypeScript",
+      "Python",
+      "Java",
+      "C#",
+      "SQL",
+      "MongoDB",
+      "HTML",
+      "CSS",
+      "C",
+      "C++"
+    ],
+    "frameworks": [
+      "ReactJS",
+      "ExpressJS",
+      "NodeJS",
+      "NestJs",
+      ".NET",
+      "Flask",
+      "Django",
+      "Microsoft Bot Framework",
+      "PyTorch",
+      "TensorFlow",
+      "Keras",
+      "OpenCV",
+      "Scikit learn",
+      "SciPy",
+      "Flask",
+      "Pandas",
+      "NumPy"
+    ],
+    "tools": [
+      "Full Stack Development",
+      "Machine Learning",
+      "Linux",
+      "Android",
+      "Azure",
+      "Competitive Programming"
+    ],
+    "databases": [
+      "SQL",
+      "MongoDB"
+    ]
+  },
+  "extra_curriculars": [
+    {
+      "summary": "Senior Member of Code@Amrita",
+      "duration": "June 2018 - July 2021",
+      "details": [
+        "Conducted Workshops teaching Data Structures, Algorithms, and programming languages (Python, Java, C++).",
+        "Hosted Competitive Programming contests, and Editorial sessions for our and Codechef contests."
+      ]
+    },
+    {
+      "summary": "Event Lead and Manager @ Anokha, Amrita’s techfest",
+      "duration": "February 2020",
+      "details": [
+        "Designed and hosted a Kaggle contest named “AI Adept” that involves solving a complex machine learning problem with a small dataset in a limited time.",
+        "Designed and hosted a competition named “Figure ’em all” that involves teams solving problems from various expertise of Computer Science like competitive programming, code golf, capture the flag, and reverse engineering."
+      ]
+    }
+  ],
+  "others": {
+    "Summary": "Developing an LLM (like GPT) based tool that builds a management portal for a company using AI; it creates workflows, custom databases, and management views following specific business rules, all from requirements given in plain English.",
+    "Leadership & Extracurricular": [
+      "Designed and hosted a Kaggle contest named “AI Adept” that involves solving a complex machine learning problem with a small dataset in a limited time.",
+      "Designed and hosted a competition named “Figure ’em all” that involves teams solving problems from various expertise of Computer Science like competitive programming, code golf, capture the flag, and reverse engineering."
+    ]
+  }
+}

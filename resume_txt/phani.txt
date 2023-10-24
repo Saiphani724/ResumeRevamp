@@ -1,0 +1,55 @@
+Sai Phani Pallapothusaiphani724.netlify.app
++1-934-221-8554 #saiphani724@gmail.com ïlinkedin.com/in/sai-phani-p §github.com/Saiphani724
+Education
+Stony Brook University August 2022 – December 2023
+Master of Science in Computer Science, GPA: 3.84/4 Stony Brook, New York•Teaching Assistant for CSE 337: Scripting Languages; Ranked #24/78 @ ICPC Greater NY Regionals 2022
+Amrita School of Engineering June 2017 – June 2021
+Bachelor of Technology in Computer Science and Engineering, GPA: 9.1/10 with Distinction Coimbatore, India
+Experience
+Lean Innovation Labs May 2023 - Present
+Full Stack Developer Intern Reston, Virginia, United States
+•Developing an LLM (like GPT) based tool that builds a management portal for a company using AI; it creates workflows,
+custom databases, and management views following specific business rules, all from requirements given in plain English.
+Microsoft July 2021 – August 2022
+Software Development Engineer Hyderabad, Telangana
+•Built a chatbot called “AutoOps Bot”, which allows the users to complete mundane tasks like managing Azure services
+effortlessly via Teams app, which saves around 40 hours/month of team effort.
+•Automated data Inbounding and Outbounding process from Workday to Microsoft’s SQL Db, and vice versa.
+•Designed, developed and maintained tools for Microsoft’s finance forecasting and budgeting management.
+Microsoft Jan 2021 - June 2021
+Software Development Engineer Intern Hyderabad, Telangana
+•Designed and implemented Reuse Dictionary project - a React, TypeScript, .NET based tool for sharing any reusable
+work done within Microsoft organization and also allows searching for works published across multiple sites like GitHub,
+nugget repository, Azure DevOps, etc., from a single place.
+Microsoft May 2020 - July 2020
+Software Development Engineer Intern Hyderabad, Telangana
+•Built Feedback Engine (on Microsoft’s Procurement Website), a tool that extracts user activity data as feedback using
+Azure Application Insights and improves the search results based on users’ actions.
+Research & Projects
+CodeOnDroid |Java, Android, XML, Firebase August 2019
+•A mobile “Compiler and Editor” Android application with language-specific custom keyboards for popular programming
+languages like Python, Java, C++ and C along with variable tracking, etc features for programming with ease.
+Quiz App |MERN Stack, ReactJs, Javascript, HTML, NodeJs, MongoDB March 2020
+•An online Quiz Application platform for students to attempt quizzes created by their faculty while also making use of
+features like auto evaluation, scorecard viewer, online discussion portal, previous quiz analysis etc.
+Bug Fixing Assistance Portal |ReactJs, HTML, Java backend, Http Servlet, Apache Tomcat, XML January 2021
+•A portal to connect users and technical support in order to update users on bugs that need to be addressed and solved.
+PASTA Inference Classification |NLP, Python, TensorFlow, Language Modeling, RoBERTa, T5 November 2022
+•A model to classify if the given story warrants the given inference statement. Models are trained to understand the world
+state for the given story to predict whether the world state is consistent with the inference statement.
+Shadow Removal using Diffusion |Computer Vison, Python, Pytorch, Transformers, Diffusion December 2022
+•A deep learning model that removes the shadow in an image and restores the image contents using Diffusion technique.
+Technical Skills
+Languages and Databases: JavaScript, TypeScript, Python, Java, C#, SQL, MongoDB, HTML, CSS, C, C++
+Frameworks and Libraries: ReactJS, ExpressJS, NodeJS, NestJs, .NET, Flask, Django, Microsoft Bot Framework,
+PyTorch, TensorFlow, Keras, OpenCV, Scikit learn, SciPy, Flask, Pandas, NumPy
+Skills and Technologies: Full Stack Development, Machine Learning, Linux, Android, Azure, Competitive Programming
+Leadership & Extracurricular
+Senior Member of Code@Amrita June 2018 - July 2021
+•Conducted Workshops teaching Data Structures, Algorithms, and programming languages (Python, Java, C++).
+•Hosted Competitive Programming contests, and Editorial sessions for our and Codechef contests.
+Event Lead and Manager @ Anokha, Amrita’s techfest February 2020
+•Designed and hosted a Kaggle contest named “AI Adept” that involves solving a complex machine learning problem with
+a small dataset in a limited time.
+•Designed and hosted a competition named “Figure ’em all” that involves teams solving problems from various expertise
+of Computer Science like competitive programming, code golf, capture the flag, and reverse engineering.

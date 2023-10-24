@@ -1,0 +1,61 @@
+Venkata Narasimha Sai Uday GattupalliStony Brook, NY | saiuday.gvn@gmail.com | Portfolio | 934-221-8552 | linkedin.com/in/gvn-saiuday/ | GitHub
+EDUCATION
+Stony Brook University Stony Brook, NY
+Master of Science in Computer Science in Computer Science, GPA: 3.95 Aug 2022 – May 2024
+Positions: Graduate Teaching Assistant for Introduction to Networking
+Coursework: Visualization & Visual Analytics, Database Systems, Artificial Intelligence, Computer Networks,
+Computer Vision, Data Science, Data Simulation & Modeling
+Indian Institute of Technology Bhilai Raipur, India
+Bachelor of Technology in Computer Science & Engineering, GPA: 3.82 Jul 2017 – May 2021
+SKILLS
+Skills: Machine Learning, Artificial Intelligence, Data Mining, Full Stack Development, Database Design, Information
+Retrieval, RESTful APIs
+Languages: Python, C++, Java, C, JavaScript
+Development Tools: Flask, SQL, NoSQL, fast.ai, Node.js, React.js, React Native, MongoDB, Git, Docker, Kubernetes, AWS,
+GCP, Jira, Confluence, Elasticsearch, Postman, PyTorch, Tensorflow, Redis, HTML5, CSS3, Shell Scripting, Agile
+Methodology, D3.js, DB2, Terraform, Ansible, CI/CD Pipelines
+WORK EXPERIENCE
+Canon U.S.A Melville, NY
+Software Engineer Intern Jun 2023 – Aug 2023
+● Engineered an interactive data visualization dashboard React.js & D3.js front-end with Python Flask back-end for
+Canon's e-commerce, boosting insights into marketing opt-ins and product registrations by 25%.
+● Devised optimized data extraction strategies to preprocess over 10M+ GCP logs from various business systems at Canon
+efficiently, employing data transformation techniques to ensure seamless rendering in the frontend visualizations.
+● Employed Google Cloud Platform services for deployment, resulting in a 50% boost in real-time interactivity and
+user-responsive data exploration on Canon's e-commerce site.
+Sterlite Technologies Gurugram, India
+Software Development Engineer Jul 2021 – Jul 2022
+● Researched, developed, and integrated network switch features into SONiC, aligning with current market standards,
+contributing to a 20% expansion of functionality.
+● Documented all the findings of function call flows between different containers in SONiC onto Confluence, thereby
+reducing the training time for new employees by 30%.
+● Mentored 10+ new employees with the prerequisites related to Network Operating Systems, SONiC, Docker, and other
+tools used in the project reducing the onboarding time for the Edge Computing team (recently acquired by Ciena).
+Max Secure Software Pune, India
+Software Engineer Intern May 2020 – Aug 2020
+● Implemented a Convolutional Neural Network model for malware detection which classified malware into their
+respective families with an accuracy of 98% & hosted the model in an AWS cloud environment.
+● Enhanced an open-source Windows Full Disk Encryption tool, adding features for API linked encryption, info sharing
+and remote encryption by system administrators, resulting in a 15% rise in encryption versatility.
+International Institute of Information Technology Hyderabad Hyderabad, India
+Software Engineer Intern May 2019 – Jun 2019
+● Collaborated with 3 departments to design, develop, and document a scalable & distributed web app (Open Voice) and
+integrated the modules with cloud infrastructure via REST APIs to collect speech data of various Indian languages from
+users across the country.
+● Led efficient transfer of speech data, which enabled the training of a vital Natural Language Processing model for 5+
+Indian language translation in a Government project.
+PROJECTS
+Obesity in the US: Factors at Play
+Full Stack Development
+● Built a custom-built interactive visual analytics dashboard for analyzing and visualizing the key factors affecting the
+obesity rate using data from across 3000+ U.S. counties.
+● Featured in Stars of CSE 564 Spring ’23 YouTube playlist by Prof. Klaus Mueller.
+Expense Tracker
+Full Stack Development (MongoDB, Express.js, React.js, Node.js Stack)
+● A cross platform app for iOS & android to track personal income & expenses hosted with the help of cloud infrastructure.
+● Crafted a MongoDB schema to store data and generate insightful reports and graphs on weekly and monthly timelines.
+● Streamlined the process of adding a new transaction from transaction alert mails using Gmail APIs.
+DNS and DNSSEC Resolver
+Computer Networking
+● Engineered a linux like dig tool (DNS lookup) to resolve a domain name iteratively using dnspython to fetch A, NS and
+MX records. Extended this dig tool to resolve domains that have DNSSEC protocol enabled.
