@@ -1,0 +1,116 @@
+{
+  "personal_details": {
+    "name": "Venkata Narasimha Sai Uday Gattupalli",
+    "location": "Stony Brook, NY",
+    "phone": "934-221-8552",
+    "email": "saiuday.gvn@gmail.com",
+    "linkedin": "linkedin.com/in/gvn-saiuday/",
+    "github": "GitHub"
+  },
+  "education": [
+    {
+      "school/university": "Stony Brook University",
+      "duration_years": "Aug 2022 – May 2024",
+      "gpa": "3.95",
+      "courses": [
+        "Visualization & Visual Analytics",
+        "Database Systems",
+        "Artificial Intelligence",
+        "Computer Networks",
+        "Computer Vision",
+        "Data Science",
+        "Data Simulation & Modeling"
+      ]
+    },
+    {
+      "school/university": "Indian Institute of Technology Bhilai",
+      "duration_years": "Jul 2017 – May 2021",
+      "gpa": "3.82",
+      "courses": []
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "Canon U.S.A",
+      "duration": "Jun 2023 – Aug 2023",
+      "summary": "Software Engineer Intern\n\n● Engineered an interactive data visualization dashboard React.js & D3.js front-end with Python Flask back-end for\nCanon's e-commerce, boosting insights into marketing opt-ins and product registrations by 25%.\n\n● Devised optimized data extraction strategies to preprocess over 10M+ GCP logs from various business systems at Canon\nefficiently, employing data transformation techniques to ensure seamless rendering in the frontend visualizations.\n\n● Employed Google Cloud Platform services for deployment, resulting in a 50% boost in real-time interactivity and\nuser-responsive data exploration on Canon's e-commerce site."
+    },
+    {
+      "company_name": "Sterlite Technologies",
+      "duration": "Jul 2021 – Jul 2022",
+      "summary": "Software Development Engineer\n\n● Researched, developed, and integrated network switch features into SONiC, aligning with current market standards,\ncontributing to a 20% expansion of functionality.\n\n● Documented all the findings of function call flows between different containers in SONiC onto Confluence, thereby\nreducing the training time for new employees by 30%.\n\n● Mentored 10+ new employees with the prerequisites related to Network Operating Systems, SONiC, Docker, and other\ntools used in the project reducing the onboarding time for the Edge Computing team (recently acquired by Ciena)."
+    },
+    {
+      "company_name": "Max Secure Software",
+      "duration": "May 2020 – Aug 2020",
+      "summary": "Software Engineer Intern\n\n● Implemented a Convolutional Neural Network model for malware detection which classified malware into their\nrespective families with an accuracy of 98% & hosted the model in an AWS cloud environment.\n\n● Enhanced an open-source Windows Full Disk Encryption tool, adding features for API linked encryption, info sharing\nand remote encryption by system administrators, resulting in a 15% rise in encryption versatility."
+    },
+    {
+      "company_name": "International Institute of Information Technology Hyderabad",
+      "duration": "May 2019 – Jun 2019",
+      "summary": "Software Engineer Intern\n\n● Collaborated with 3 departments to design, develop, and document a scalable & distributed web app (Open Voice) and\nintegrated the modules with cloud infrastructure via REST APIs to collect speech data of various Indian languages from\nusers across the country.\n\n● Led efficient transfer of speech data, which enabled the training of a vital Natural Language Processing model for 5+\nIndian language translation in a Government project."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Obesity in the US: Factors at Play",
+      "summary": "Full Stack Development\n\n● Built a custom-built interactive visual analytics dashboard for analyzing and visualizing the key factors affecting the\nobesity rate using data from across 3000+ U.S. counties.\n\n● Featured in Stars of CSE 564 Spring ’23 YouTube playlist by Prof. Klaus Mueller."
+    },
+    {
+      "name": "Expense Tracker",
+      "summary": "Full Stack Development (MongoDB, Express.js, React.js, Node.js Stack)\n\n● A cross platform app for iOS & android to track personal income & expenses hosted with the help of cloud infrastructure.\n\n● Crafted a MongoDB schema to store data and generate insightful reports and graphs on weekly and monthly timelines.\n\n● Streamlined the process of adding a new transaction from transaction alert mails using Gmail APIs."
+    },
+    {
+      "name": "DNS and DNSSEC Resolver",
+      "summary": "Computer Networking\n\n● Engineered a linux like dig tool (DNS lookup) to resolve a domain name iteratively using dnspython to fetch A, NS and\nMX records. Extended this dig tool to resolve domains that have DNSSEC protocol enabled."
+    }
+  ],
+  "technical_skills": {
+    "languages": [
+      "Python",
+      "C++",
+      "Java",
+      "C",
+      "JavaScript"
+    ],
+    "frameworks": [
+      "Flask",
+      "SQL",
+      "NoSQL",
+      "fast.ai",
+      "Node.js",
+      "React.js",
+      "React Native",
+      "MongoDB",
+      "Git",
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "GCP",
+      "Jira",
+      "Confluence",
+      "Elasticsearch",
+      "Postman",
+      "PyTorch",
+      "Tensorflow",
+      "Redis",
+      "HTML5",
+      "CSS3",
+      "Shell Scripting",
+      "Agile Methodology",
+      "D3.js",
+      "DB2",
+      "Terraform",
+      "Ansible",
+      "CI/CD Pipelines"
+    ],
+    "tools": [],
+    "databases": []
+  },
+  "extra_curriculars": {
+    "summary": ""
+  },
+  "others": {
+    "summary": "Venkata Narasimha Sai Uday GattupalliStony Brook, NY | saiuday.gvn@gmail.com | Portfolio | 934-221-8552 | linkedin.com/in/gvn-saiuday/ | GitHub\n\nSKILLS\nSkills: Machine Learning, Artificial Intelligence, Data Mining, Full Stack Development, Database Design, Information\nRetrieval, RESTful APIs"
+  }
+}

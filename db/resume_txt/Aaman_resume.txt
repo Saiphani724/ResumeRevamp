@@ -1,0 +1,55 @@
+Owais AamanStony Brook, NY
+9344519465 #owaisaaman.sheikh@stonybrook.edu ïlinkedin.com/in/owais-aaman-a53106171
+Education
+Stony Brook University Aug 2023 – May 2025
+Master of Science in Computer Science Stony Brook, NY
+SRM Institute of Science and Technology Jun 2018 – Jun 2022
+Bachelor of Technology in Computer Science; GPA: 3.50/4.00 (WES Evaluation) Chennai, India
+Relevant Coursework
+•Operating Systems•Data Structures
+•Analysis of Algorithms•Artificial Intelligence
+•Software Engineering•Computer Architecture
+•OOPS•Computer Networks
+Experience
+Zensar Technologies Mar 2022 – August 2023
+Software Engineer Pune, India
+•Developed a web-based project management system for Cisco Systems client using MERN Stack.
+•Designed user interfaces with React, built RESTful APIs with Node.js and Express, and maintained MongoDB database.
+•Implemented AWS services for deployment and hosting, collaborated with the team using Git and Agile methodologies,
+and received positive client feedback.
+Jio Creative Labs Sep 2021 – Nov 2021
+Research Intern Noida, India
+•Conducted in-depth marketing research for multiple clients over three months.
+•Utilized customer journey maps and consumer profiles to improve messaging effectiveness and drive lead generation.
+•Coordinated with cross-functional teams, delivered insights to senior management, and helped clients achieve their
+marketing goals on time and on budget.
+Goldman Sachs Jul 2021 – Aug 2021
+Summer Analyst Hyderabad, India
+•Reduced a bottleneck by migrating database hotkeys to an in-memory, distributed cache.
+•Recreated performance setup, optimized the cache configuration, carried out performance benchmarking and recorded a
+minimum 4x performance increase per transaction.
+•Architected a solution for ACID compliance across both datastores based on ”two-phase commit protocol”.
+Projects
+Locating EV Charging Stations with Dijkstra’s Algorithm Jun 2021 – Dec 2021
+•Developed system using Python, JavaScript, and geolocation data to find nearest charging stations using real-time APIs
+for charging station providers.
+Pharmacy Management System Apr 2021 – May 2021
+•Designed and developed software system for streamlining medication and pharmacy operations, using Java, MySQL and
+web development languages.
+Detection of Malicious URLs using Machine Learning Feb 2021 – May 2021
+•Developed system to identify and block malicious URLs using Scikit-learn, Python programming and web browser
+extensions.
+Software Testing of Mobile Apps using Cloud Computing Sep 2020 – Dec 2020
+•Developed testing tools and frameworks for mobile app testing, using cloud computing and Google Firebase to execute
+tests at scale, identify issues and automate test cases.
+Technical Skills
+Languages: C++, Python, HTML/CSS, JavaScript
+Frameworks: React, jQuery, Bootstrap
+Tools & Technologies: MERN Stack (MongoDB, Express, React, Node.js), Git, AWS
+Databases: MongoDB, MySQL
+Leadership / Extracurricular
+•Teaching Assistant for Software Engineering, SRMIST (2019): Initiated and coordinated on-campus initiatives for the
+course Software Engineering and project management.
+•Supporting staff Texus, SRMIST (2018-2021): Organized events and activities for 900 computer science and engineering
+students.
+•Athletic Representative, Glendale Academy (2015): Represented the school in athletic competitions and events.

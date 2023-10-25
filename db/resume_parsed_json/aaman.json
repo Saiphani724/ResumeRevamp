@@ -1,0 +1,77 @@
+{
+  "personal_details": {
+    "name": "Owais Aaman",
+    "location": "Stony Brook, NY",
+    "phone": "9344519465",
+    "email": "owaisaaman.sheikh@stonybrook.edu",
+    "linkedin": "linkedin.com/in/owais-aaman-a53106171",
+    "github": ""
+  },
+  "education": [
+    {
+      "school/university": "Stony Brook University",
+      "duration_years": "Aug 2023 - May 2025",
+      "gpa": "",
+      "courses": ""
+    },
+    {
+      "school/university": "SRM Institute of Science and Technology",
+      "duration_years": "Jun 2018 - Jun 2022",
+      "gpa": "3.50/4.00 (WES Evaluation)",
+      "courses": ""
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "Zensar Technologies",
+      "duration": "Mar 2022 - August 2023",
+      "summary": "Developed a web-based project management system for Cisco Systems client using MERN Stack. Designed user interfaces with React, built RESTful APIs with Node.js and Express, and maintained MongoDB database. Implemented AWS services for deployment and hosting, collaborated with the team using Git and Agile methodologies, and received positive client feedback."
+    },
+    {
+      "company_name": "Jio Creative Labs",
+      "duration": "Sep 2021 - Nov 2021",
+      "summary": "Conducted in-depth marketing research for multiple clients over three months. Utilized customer journey maps and consumer profiles to improve messaging effectiveness and drive lead generation. Coordinated with cross-functional teams, delivered insights to senior management, and helped clients achieve their marketing goals on time and on budget."
+    },
+    {
+      "company_name": "Goldman Sachs",
+      "duration": "Jul 2021 - Aug 2021",
+      "summary": "Reduced a bottleneck by migrating database hotkeys to an in-memory, distributed cache. Recreated performance setup, optimized the cache configuration, carried out performance benchmarking and recorded a minimum 4x performance increase per transaction. Architected a solution for ACID compliance across both datastores based on 'two-phase commit protocol'."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Locating EV Charging Stations with Dijkstra’s Algorithm",
+      "duration": "Jun 2021 - Dec 2021",
+      "summary": "Developed system using Python, JavaScript, and geolocation data to find nearest charging stations using real-time APIs for charging station providers."
+    },
+    {
+      "name": "Pharmacy Management System",
+      "duration": "Apr 2021 - May 2021",
+      "summary": "Designed and developed software system for streamlining medication and pharmacy operations, using Java, MySQL and web development languages."
+    },
+    {
+      "name": "Detection of Malicious URLs using Machine Learning",
+      "duration": "Feb 2021 - May 2021",
+      "summary": "Developed system to identify and block malicious URLs using Scikit-learn, Python programming and web browser extensions."
+    },
+    {
+      "name": "Software Testing of Mobile Apps using Cloud Computing",
+      "duration": "Sep 2020 - Dec 2020",
+      "summary": "Developed testing tools and frameworks for mobile app testing, using cloud computing and Google Firebase to execute tests at scale, identify issues and automate test cases."
+    }
+  ],
+  "technical_skills": {
+    "languages": "C++, Python, HTML/CSS, JavaScript",
+    "frameworks": "React, jQuery, Bootstrap",
+    "tools": "MERN Stack (MongoDB, Express, React, Node.js), Git, AWS",
+    "databases": "MongoDB, MySQL"
+  },
+  "extra_curriculars": [
+    "Teaching Assistant for Software Engineering, SRMIST (2019): Initiated and coordinated on-campus initiatives for the course Software Engineering and project management.",
+    "Supporting staff Texus, SRMIST (2018-2021): Organized events and activities for 900 computer science and engineering students.",
+    "Athletic Representative, Glendale Academy (2015): Represented the school in athletic competitions and events."
+  ],
+  "others": [
+    "Relevant Coursework: Operating Systems, Data Structures, Analysis of Algorithms, Artificial Intelligence, Software Engineering, Computer Architecture, OOPS, Computer Networks"
+  ]
+}

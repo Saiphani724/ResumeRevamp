@@ -1,0 +1,36 @@
+Data Engineering Intern - Nvidia 
+Are you ready to dive into the exciting world of innovative technology? For more than 25 years NVIDIA is at the forefront of technological advancements in areas like gaming, AI, deep learning, and autonomous vehicles. Our Data Platform team is on the hunt for dedicated interns who are passionate about supercharging our GPU-accelerated Data Platform solution. If you're with an appetite for learn, passionate about working on the latest technologies and pushing the boundaries of what's possible, and want to be part of a dynamic team, this opportunity is tailor-made for you!
+
+What you'll be doing:
+
+Collaborate with data engineers to assist in the design, implementation, and maintenance of Data Platform
+
+Develop and optimize automation tools and build data pipelines with Apache Airflow
+
+Assist partners and customers on their critically important projects.
+
+Contribute to development of ML based Data Quality solution
+
+Participate in debugging and resolving data-related issues, including data integrity and accuracy in geo distributed infrastructure.
+
+What we need to see:
+
+Currently pursuing a Bachelor's or Master's degree in Information Technology, Computer Science, or a related technical field.
+
+Proficiency in Python and SQL
+
+Knowledge in distributed processing frameworks like Apache Spark
+
+Experience or knowledge in Apache Airflow is a definite plus, but a motivation to learn is equally valuable
+
+Excellent communication skills, with a logical approach to problem solving
+
+Strong written and oral communication skills in English.
+
+Ways to stand out from the crowd:
+
+Experience with Java and Scala
+
+Familiar with software version control (e.g. GitHub, Git).
+
+Experience with CI/CD frameworks (e.g. Jenkins, Concourse, Gitlab CI/CD)

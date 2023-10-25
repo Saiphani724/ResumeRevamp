@@ -6,3 +6,4 @@ pydantic==1.10.8
 toml==0.10.2
 tenacity==8.2.2
 PyJWT==2.8.0
+jupyter==1.0.0
