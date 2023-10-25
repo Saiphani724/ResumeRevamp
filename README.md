@@ -12,8 +12,9 @@ pip install -r requirements.txt
 Windows
 
 python -m pip install --upgrade pip
-python -m venv ./venv
-source ./venv/bin/activate
+python -m venv myenv
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+myenv\Scripts\activate
 
 pip install -r requirements.txt
 
