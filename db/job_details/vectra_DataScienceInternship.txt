@@ -1,0 +1,27 @@
+Vectra® is the leader in AI-driven threat detection and response for hybrid and multi-cloud enterprises.
+
+The Vectra AI Platform delivers integrated signal across public cloud, SaaS, identity, and data center networks in a single platform. Powered by patented Attack Signal Intelligence, it empowers security teams to rapidly prioritize, investigate and respond to the most advanced cyber-attacks. With 35 patents in AI-driven threat detection and the most vendor references in MITRE D3FEND, organizations worldwide rely on the Vectra AI to move at the speed and scale of hybrid attackers. For more information, visit www.vectra.ai. 
+
+Data Scientist Intern
+
+at Vectra AI
+
+San Jose, CA
+
+Vectra delivers a new class of real-time threat detection and advanced analysis of active network intrusions. Vectra picks up where perimeter security leaves off using AI to provide deep, continuous analysis of both internal and Internet-facing network traffic for all phases of the attack progression as attackers attempt to breach, spy, spread, and steal within networks.
+
+Vectra directly analyzes network traffic in real time using combination of patent-pending data science, machine learning, and behavioral analysis to detect attacker behaviors and user anomalies in the network. All detections are algorithmically correlated and prioritized to show an attack in context, and Vectra machine learning adapts as attacks evolve.
+
+Position Overview:
+
+Apply cutting edge machine learning, artificial intelligence, and modeling techniques to stop hackers in real time as they attack networks. As part of the data science internship program, you will directly impact the product by developing new methods using cutting edge techniques to detect malicious and anomalous behaviors on the network.
+
+ We are looking for qualified undergraduate and graduate interns eager to learn and deliver a project that will be used in the product.
+
+ Qualifications:
+
+Undergraduate or Graduate major focusing on Computer Science, Engineering, or similar computational discipline
+Python programming experience
+Strong machine learning knowledge and/or mathematical foundations with experience solving tough, real-world problems
+Excellent collaboration skills
+Vectra provides a comprehensive total rewards package that supports the financial, physical, mental and overall health of our employees and their families. Compensation includes competitive base pay, incentive plan eligibility, and participation in the employee equity plan (stock options). Specific benefits offered varies by location, but commonly include health care insurance, income protection / life insurance, access to retirement savings plans, behavioral & emotional wellness services, generous time away from work, and a comprehensive employee recognition program.
