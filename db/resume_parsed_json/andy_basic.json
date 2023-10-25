@@ -1,0 +1,98 @@
+{
+    "name": "VANGURU ANKIT REDDY",
+    "email": "vankitreddy@gmail.com",
+    "phone": "+91 8688790982",
+    "address": "Stony Brook, NY(11794)",
+    "experience": [
+      {
+        "company": "Samsung R&D Banglore",
+        "duration": "May 2022 - July 2022",
+        "description": "Worked as summer intern at Samsung Research and Development Institute Banglore. Worked on developing a tool along with other group members."
+      }
+    ],
+    "projects": [
+      {
+        "name": "Food Delivery Database Management",
+        "type": "Group Project",
+        "date": "March 2021",
+        "description": "Created an ER Diagram and corresponding Relational model for delivery system and database for the project. It includes the relationship between Customers, Orders, Restaurants, Delivery boy etc. Database is normalized to reduce the data redundancy. Stored data using Oracle SQL Developer for real time application or queries."
+      },
+      {
+        "name": "Code Organiser",
+        "type": "Group Project",
+        "date": "June 2022",
+        "description": "Designed a website to help users to locate their problems and the solutions instantly. Users can make connections and check each others answers."
+      }
+    ],
+    "technical_skills": [
+      "C++",
+      "Java",
+      "SQL",
+      "HTML,CSS",
+      "Python"
+    ],
+    "strengths": [
+      "Thrive in challenge working environment",
+      "Time management",
+      "Hard Working",
+      "Willing to learn and upskill"
+    ],
+    "education": [
+      {
+        "degree": "M.S, Computer Science",
+        "university": "Stony Brook University, NY",
+        "duration": "Aug 2023-May 2025",
+        "location": "NY, USA",
+        "major": "CS",
+        "courses": [
+          "Computer Vision",
+          "Data Science",
+          "Analysis of Algorithms"
+        ]
+      },
+      {
+        "degree": "B.Tech, Computer Science and Engineering",
+        "university": "National Institute of Technology, Warangal",
+        "duration": "Aug 2019 – May 2023",
+        "location": "Warangal, Tealangana, India",
+        "branch": "CSE",
+        "cgpa": "8.00"
+      },
+      {
+        "degree": "High School",
+        "school": "Sri Chaitanya Junior College",
+        "duration": "June 2017 – May 2019",
+        "location": "Hyderabad, Telangana, India",
+        "board": "Telangana State Board of Intermediate Education",
+        "course": "MPC",
+        "percentage": "98.7"
+      },
+      {
+        "degree": "Secondary School",
+        "school": "Dr.KKR Gowtham Educational Institutions",
+        "duration": "Jun 2014 – Mar 2017",
+        "location": "Hyderabad, Telangana, India",
+        "board": "Telangana State Board of Secondary Education",
+        "cgpa": "9.7/10"
+      }
+    ],
+    "achievements": [
+      "Secured 2274th all india rank in JEE MAINS 2019",
+      "Secured 4479th all india rank in JEE ADVANCE 2019"
+    ],
+    "courses": [
+      "Data Structures and Algorithms",
+      "Design and Analysis of Algorithms",
+      "Database Management Systems",
+      "Object Oriented Programming through Java",
+      "Operating Systems",
+      "Computer Networks"
+    ],
+    "extracurricular_activities": [
+      "Organized Intra-badminton league Season 1 2.",
+      "Member of NSS NITW and Dance and Dramatics Club",
+      "Member of the kabaddi team which secured second and first place in inter branch and inter section challenge respectively during first year Btech",
+      "Captain of Intra-badminton league winning team of season 2."
+    ]
+  }
+  

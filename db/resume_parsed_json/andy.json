@@ -1,0 +1,87 @@
+{
+    "personal_details": {
+      "name": "VANGURU ANKIT REDDY",
+      "location": "Stony Brook, NY(11794)",
+      "phone": "+91 8688790982",
+      "email": "vankitreddy@gmail.com",
+      "LinkedIn": "",
+      "GitHub": "andy6294"
+    },
+    "education": [
+      {
+        "school/university": "Stony Brook University, NY",
+        "duration_years": "Aug 2023-May 2025",
+        "GPA": "",
+        "courses": "CS, Computer Vision, Data Science, Analysis of Algorithms"
+      },
+      {
+        "school/university": "National Institute of Technology, Warangal",
+        "duration_years": "Aug 2019-May 2023",
+        "GPA": "8.00",
+        "courses": ""
+      },
+      {
+        "school/university": "Sri Chaitanya Junior College",
+        "duration_years": "June 2017-May 2019",
+        "GPA": "",
+        "courses": "MPC"
+      },
+      {
+        "school/university": "Dr.KKR Gowtham Educational Institutions",
+        "duration_years": "Jun 2014-Mar 2017",
+        "GPA": "9.7/10",
+        "courses": ""
+      }
+    ],
+    "experience": [
+      {
+        "company_name": "Samsung R&D Banglore",
+        "duration": "May 2022-July 2022",
+        "summary": "Worked as summer intern at Samsung Research and Development Institute Banglore. Worked on developing a tool along with other group members."
+      }
+    ],
+    "projects": [
+      {
+        "project_name": "Food Delivery Database Management",
+        "duration": "March 2021",
+        "summary": "Created an ER Diagram and corresponding Relational model for delivery system and database for the project. It includes the relationship between Customers, Orders, Restaurants, Delivery boy etc. Database is normalized to reduce the data redundancy. Stored data using Oracle SQL Developer for real-time application or queries."
+      },
+      {
+        "project_name": "Code Organiser",
+        "duration": "June 2022",
+        "summary": "Designed a website to help users to locate their problems and the solutions instantly. Users can make connections and check each other's answers."
+      }
+    ],
+    "technical skills": {
+      "languages": [
+        "C++",
+        "Java",
+        "SQL",
+        "HTML,CSS",
+        "Python"
+      ],
+      "frameworks": [],
+      "tools": [],
+      "databases": []
+    },
+    "course_work": [
+      "Data Structures and Algorithms",
+      "Design and Analysis of Algorithms",
+      "Database Management Systems",
+      "Object Oriented Programming through Java",
+      "Operating Systems",
+      "Computer Networks"
+    ],
+    "extra_curriculars": [
+      "Organized Intra-badminton league Season 1 2.",
+      "Member of NSS NITW and Dance and Dramatics Club",
+      "Member of the kabaddi team which secured second and first place in inter branch and inter section challenge respectively during the first year Btech",
+      "Captain of Intra-badminton league winning team of season 2."
+    ],
+    "summary": "Thrive in a challenging working environment. Time management. Hard Working. Willing to learn and upskill.",
+    "others": [
+      "Secured 2274th all India rank in JEE MAINS 2019",
+      "Secured 4479th all India rank in JEE ADVANCE 2019"
+    ]
+  }
+  

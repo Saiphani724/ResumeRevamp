@@ -1,0 +1,139 @@
+{
+    "name": "Sai Phani Pallapothusaiphani",
+    "email": "saiphani724@gmail.com",
+    "phone": "+1-934-221-8554",
+    "linkedin": "linkedin.com/in/sai-phani-p",
+    "github": "github.com/Saiphani724",
+    "education": [
+      {
+        "university": "Stony Brook University",
+        "dates": "August 2022 - December 2023",
+        "degree": "Master of Science in Computer Science",
+        "gpa": "3.84/4",
+        "location": "Stony Brook, New York"
+      },
+      {
+        "university": "Amrita School of Engineering",
+        "dates": "June 2017 - June 2021",
+        "degree": "Bachelor of Technology in Computer Science and Engineering",
+        "gpa": "9.1/10 with Distinction",
+        "location": "Coimbatore, India"
+      }
+    ],
+    "experience": [
+      {
+        "company": "Lean Innovation Labs",
+        "dates": "May 2023 - Present",
+        "position": "Full Stack Developer Intern",
+        "location": "Reston, Virginia, United States",
+        "description": "Developing an LLM (like GPT) based tool that builds a management portal for a company using AI; it creates workflows, custom databases, and management views following specific business rules, all from requirements given in plain English."
+      },
+      {
+        "company": "Microsoft",
+        "dates": "July 2021 - August 2022",
+        "position": "Software Development Engineer",
+        "location": "Hyderabad, Telangana",
+        "description": "Built a chatbot called 'AutoOps Bot', which allows the users to complete mundane tasks like managing Azure services effortlessly via Teams app, which saves around 40 hours/month of team effort. Automated data Inbounding and Outbounding process from Workday to Microsoft’s SQL Db, and vice versa. Designed, developed and maintained tools for Microsoft’s finance forecasting and budgeting management."
+      },
+      {
+        "company": "Microsoft",
+        "dates": "Jan 2021 - June 2021",
+        "position": "Software Development Engineer Intern",
+        "location": "Hyderabad, Telangana",
+        "description": "Designed and implemented Reuse Dictionary project - a React, TypeScript, .NET based tool for sharing any reusable work done within Microsoft organization and also allows searching for works published across multiple sites like GitHub, nugget repository, Azure DevOps, etc., from a single place."
+      },
+      {
+        "company": "Microsoft",
+        "dates": "May 2020 - July 2020",
+        "position": "Software Development Engineer Intern",
+        "location": "Hyderabad, Telangana",
+        "description": "Built Feedback Engine (on Microsoft’s Procurement Website), a tool that extracts user activity data as feedback using Azure Application Insights and improves the search results based on users’ actions."
+      }
+    ],
+    "projects": [
+      {
+        "title": "CodeOnDroid",
+        "technologies": "Java, Android, XML, Firebase",
+        "description": "A mobile 'Compiler and Editor' Android application with language-specific custom keyboards for popular programming languages like Python, Java, C++ and C along with variable tracking, etc features for programming with ease."
+      },
+      {
+        "title": "Quiz App",
+        "technologies": "MERN Stack, ReactJs, Javascript, HTML, NodeJs, MongoDB",
+        "description": "An online Quiz Application platform for students to attempt quizzes created by their faculty while also making use of features like auto evaluation, scorecard viewer, online discussion portal, previous quiz analysis etc."
+      },
+      {
+        "title": "Bug Fixing Assistance Portal",
+        "technologies": "ReactJs, HTML, Java backend, Http Servlet, Apache Tomcat, XML",
+        "description": "A portal to connect users and technical support in order to update users on bugs that need to be addressed and solved."
+      },
+      {
+        "title": "PASTA Inference Classification",
+        "technologies": "NLP, Python, TensorFlow, Language Modeling, RoBERTa, T5",
+        "description": "A model to classify if the given story warrants the given inference statement. Models are trained to understand the world state for the given story to predict whether the world state is consistent with the inference statement."
+      },
+      {
+        "title": "Shadow Removal using Diffusion",
+        "technologies": "Computer Vison, Python, Pytorch, Transformers, Diffusion",
+        "description": "A deep learning model that removes the shadow in an image and restores the image contents using Diffusion technique."
+      }
+    ],
+    "skills": {
+      "languages": [
+        "JavaScript",
+        "TypeScript",
+        "Python",
+        "Java",
+        "C#",
+        "SQL",
+        "MongoDB",
+        "HTML",
+        "CSS",
+        "C",
+        "C++"
+      ],
+      "frameworks": [
+        "ReactJS",
+        "ExpressJS",
+        "NodeJS",
+        "NestJs",
+        ".NET",
+        "Flask",
+        "Django",
+        "Microsoft Bot Framework",
+        "PyTorch",
+        "TensorFlow",
+        "Keras",
+        "OpenCV",
+        "Scikit learn",
+        "SciPy",
+        "Flask",
+        "Pandas",
+        "NumPy"
+      ],
+      "technologies": [
+        "Full Stack Development",
+        "Machine Learning",
+        "Linux",
+        "Android",
+        "Azure",
+        "Competitive Programming"
+      ]
+    },
+    "leadership": [
+      {
+        "organization": "Code@Amrita",
+        "dates": "June 2018 - July 2021",
+        "position": "Senior Member",
+        "description": "Conducted Workshops teaching Data Structures, Algorithms, and programming languages (Python, Java, C++). Hosted Competitive Programming contests, and Editorial sessions for our and Codechef contests."
+      }
+    ],
+    "extracurricular": [
+      {
+        "event": "Anokha, Amrita’s techfest",
+        "dates": "February 2020",
+        "position": "Event Lead and Manager",
+        "description": "Designed and hosted a Kaggle contest named 'AI Adept' that involves solving a complex machine learning problem with a small dataset in a limited time. Designed and hosted a competition named 'Figure ’em all' that involves teams solving problems from various expertise of Computer Science like competitive programming, code golf, capture the flag, and reverse engineering."
+      }
+    ]
+  }
+  
