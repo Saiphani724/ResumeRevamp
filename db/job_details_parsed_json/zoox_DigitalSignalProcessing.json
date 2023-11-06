@@ -1,0 +1,12 @@
+{
+    "Job Title": "Data Signal Processing Intern - Zoox",
+    "Job Description": "As an intern on the Advanced Hardware Engineering DSP team, you'll be working alongside those that architect, design, and develop our state-of-the-art hardware and Signal Processing Systems required for enabling autonomous mobility. At Zoox, you'll collaborate with a team of world-class engineers with diverse backgrounds in areas such as AI, robotics, machine learning, localization, computer vision, and simulation. You'll master new technologies while working on code, algorithms, and research in your area of expertise to create and refine key systems and move Zoox forward. As an intern in the DSP team, you will be working on design and implementation of signal processing and ML algorithms related to radars, depth cameras, audio subsystems, and Lidars. We are looking for curious and highly mathematical minds to work with us.",
+    "Prerequisites": {
+      "Proficiency in": ["C", "C++", "Python", "Matlab"],
+      "Course work in": ["Digital Signal Processing", "Circuits and systems", "Optimum filtering", "Probability and Statistics", "Random Signals and Noise"],
+      "Hands on experience related to": ["digital signal processors and/or algorithm design in one or more areas related to radar, lidar, depth cameras, audio or other signal processing related fields"]
+    },
+    "Preferred Qualifications": {
+      "Applied machine learning experience related to": ["computer vision, audio or other related area is a plus"]
+    }
+  }
