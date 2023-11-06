@@ -1,0 +1,94 @@
+{
+    "name": "Anusha Avulapati",
+    "location": "Stony brook, New York",
+    "phone": "934-451-9988",
+    "email": "anusha.avulapati@stonybrook.edu",
+    "linkedin": "linkedin.com/in/anusha-avulapati/",
+    "education": [
+      {
+        "university": "Stony Brook University",
+        "degree": "Master of Science in Computer Science",
+        "location": "Stony Brook, New York",
+        "dates": "August 2023 – Present"
+      },
+      {
+        "university": "Vellore Institute of Technology",
+        "degree": "Bachelor of Technology in Computer Science",
+        "location": "Vellore, India",
+        "dates": "July 2017 – June 2021",
+        "cgpa": "9.1/10"
+      }
+    ],
+    "experience": [
+      {
+        "company": "Shell India Private Limited",
+        "position": "Software Engineer",
+        "location": "Bangalore, India",
+        "dates": "October 2021 – August 2023",
+        "responsibilities": [
+          "Developed MERN stack web application which converts data to hierarchy format and enables users to create own custom hierarchies and perform all CRUD operations.",
+          "Liaised with backend developers, front end developers, quality assurance testers as needed.",
+          "Managed time-sensitive updates, including content changes and database upgrades.",
+          "Planned, written and debugged web application and software with complete accuracy.",
+          "Main Contributor in developing the core part of the application(automatic XSLT creation).",
+          "Designed and developed a new UI layout for the application for better visualization."
+        ]
+      },
+      {
+        "company": "Sailotech Private Limited",
+        "position": "Data Analyst Intern",
+        "location": "Hyderabad, India",
+        "dates": "May 2019 – June 2019",
+        "responsibilities": [
+          "Worked on Data Analytics topic Customer Segmentation using RFM Analysis.",
+          "Produced reports and presentation using QlikSense software."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Smart Agriculture and Veterinary System",
+        "description": "Designed and developed website for farmers which recommends seeds and fertilizers to be used for a particular season. Farmers can buy seeds, fertilizers and medicine for animals using this website. Suggests the nearest Veterinary hospital based on current location. Developed using HTML, CSS, JavaScript, PHP and MYSQL."
+      },
+      {
+        "name": "Crop Price Predictions using Deep Learning Techniques",
+        "description": "Developed an application where farmers can predict the price of any crop at a particular time. Used Deep Learning Techniques like Functional Link Neural Network, Whale Optimization Algorithm, Harris Hawks Optimization Algorithm, Particle Swarm Optimization Algorithm to predict the prices and achieved accuracy of 89%."
+      },
+      {
+        "name": "Image Retrieval using Multitexton Histograms",
+        "description": "Developed an application that retrieves the top 3 closest images of the given image present in the dataset. Multitexton Histograms are used to find the similarities between the pixels of images. Implemented object-oriented programming practices such as inheritance to create different account types and databases."
+      }
+    ],
+    "technicalSkills": {
+      "programming": [
+        "Java",
+        "Python",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "webTechnologies": [
+        "ReactJS",
+        "NodeJS",
+        "HTML5",
+        "CSS",
+        "Bootstrap",
+        "Rest API"
+      ],
+      "databases": [
+        "MySQL",
+        "Mongo DB"
+      ],
+      "toolsFrameworks": [
+        "GIT",
+        "Azure Devops"
+      ]
+    },
+    "professionalEnhancements": [
+      "Published ”IoT Embedded Sensor based Cloud Agent System for Sudden Infant Death Syndrome Monitoring and Analysis using Machine Learning” in International Journal of Engineering Research & Technology (IJERT),Vol. 10 Issue 08, August-2021",
+      "Secured 1st place in a hackathon conducted by Fandrum in VIT.",
+      "Annual Scholarship of INR 50,000 from VIT for meritorious performance in the VITEEE examination",
+      "General Secretary of VIT LEO Club - an NGO, mentored a team of 100 members for organizing various events.",
+      "Coordinator in Publicity and Marketing Team of Riviera - lead a team of 150 members and publicized the event in various universities all over India."
+    ]
+  }
+  

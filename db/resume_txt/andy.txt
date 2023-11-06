@@ -1,0 +1,84 @@
+VANGURU ANKIT REDDY
+Graduate Student at SBU, NY
+[ vankitreddy@gmail.com [ ankitreddy.vanguru@stonybrook.edu Ó +91 8688790982
+ ̄ Ankit Reddy Vanguru  andy6294 ½ Stony Brook, NY(11794)
+EXPERIENCE
+Samsung R&D Banglore
+ May 2022 - July 2022
+• Worked as summer intern at Samsung
+Research and Development Institute
+Banglore
+• Worked on developing a tool along with
+other group members
+PROJECTS
+Food Delivery Database
+Management
+Group Project
+ March 2021
+• Created an ER Diagram and
+corresponding Relational model for
+delivery system and database for the
+project
+• It includes the relationship between
+Customers, Orders, Restaurants, Delivery
+boy etc.
+• Database is normalized to reduce the data
+redundancy
+• Stored data using Oracle SQL Developer
+for real time application or queries
+Code Organiser
+Group Project
+ June 2022
+• Designed a website to help users to locate
+their problems and the solutions instantly
+• Users can make connections and check
+each others answers
+TECHNICAL SKILLS
+C++ ○ ○ ○ ○ ○
+Java ○ ○ ○ ○ ○
+SQL ○ ○ ○ ○ ○
+HTML,CSS ○ ○ ○ ○ ○
+Python ○ ○ ○ ○ ○
+STRENGTHS
+Thrive in challenge working environment
+Time management Hard Working
+Willing to learn and upskill
+EDUCATION
+M.S, Computer Science
+Stony Brook University, NY
+ Aug 2023-May 2025 ½ NY, USA
+• Major: CS
+• Course: Computer Vision, Data Science. Analysis of Algorithms
+B.Tech, Computer Science and Engineering
+National Institute of Technology, Warangal
+ Aug 2019 – May 2023 ½ Warangal, Tealangana, India
+• Branch:CSE
+• CGPA:8.00
+High School
+Sri Chaitanya Junior College
+ June 2017 – May 2019 ½ Hyderabad, Telangana, India
+• Board:Telangana State Board of Intermediate Education
+• Course:MPC
+• Aggregate Percentage:98.7
+Secondary School
+Dr.KKR Gowtham Educational Institutions
+ Jun 2014 – Mar 2017 ½ Hyderabad, Telangana, India
+• Board:Telangana State Board of Secondary Education
+• CGPA:9.7/10
+ACHIEVEMENTS
+• Secured 2274th all india rank in JEE MAINS 2019
+• Secured 4479th all india rank in JEE ADVANCE 2019
+COURSES
+• Data Structures and Algorithms
+• Design and Analysis of Algorithms
+• Database Management Systems
+• Object Oriented Programming through Java
+• Operating Systems
+• Computer Networks
+EXTRACURRICULAR ACTIVITIES
+• Organized Intra-badminton league Season 1 2.
+• Member of NSS NITW and Dance and Dramatics Club
+• Member of the kabaddi team which secured second and first place in
+inter branch and inter section challenge respectively during first year
+Btech
+• Captain of Intra-badminton league winning team of season 2.
