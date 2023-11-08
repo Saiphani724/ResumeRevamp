@@ -1,16 +1,19 @@
 import openai
 from tenacity import retry, wait_random_exponential, stop_after_attempt
-import json
+import json, os
+from dotenv import load_dotenv, find_dotenv
+load_dotenv(find_dotenv())
 
 class GPTModel:
     def __init__(self, model):
         self.model = model
-        openai.api_key = 'OPENAI_API_KEY'
+        openai.api_key = os.environ['OPENAI_API_KEY']
 
     @retry(wait=wait_random_exponential(min=1, max=40), stop=stop_after_attempt(2))
     async def get_completion_with_function_call(self, messages, functions, function_call, model = None):
         if model is None:
             model = self.model
+        print(messages)
         response = await openai.ChatCompletion.acreate(
             model=model,
             messages=messages,
