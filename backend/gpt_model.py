@@ -13,12 +13,13 @@ class GPTModel:
     async def get_completion_with_function_call(self, messages, functions, function_call, model = None):
         if model is None:
             model = self.model
-        print(messages)
+        print(model)
         response = await openai.ChatCompletion.acreate(
             model=model,
             messages=messages,
             functions=functions,
             function_call=function_call,
+            seed=42,
             temperature=0,  # this is the degree of randomness of the model's output
         )
         result = response.choices[0]['message']['function_call']['arguments']
@@ -27,9 +28,11 @@ class GPTModel:
     async def get_completion(self, messages, model = None):
         if model is None:
             model = self.model
+        print(model)
         response = await openai.ChatCompletion.acreate(
             model=model,
             messages=messages,
+            seed=42,
             temperature=0,  # this is the degree of randomness of the model's output
         )
         result = response.choices[0]["message"]["content"]

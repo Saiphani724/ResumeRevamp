@@ -11,7 +11,7 @@ def get_resume_gen_messages(resume_json, job_json):
         - Try to keep as many projects as possible always try to change the summary of the projects according to the job_details by cutting short the summary and also remove few projects in some cases if you feel it's irrelevant.
         - Cutting short summary of the projects is the most important thing and don't cut them too short if it's too long like more than 55 words try to cut them short to 40-50 words and follow that ratio and only cut words if it's absolutely necessary.
         - Organise "technical_skills" with respect to job_details.
-        -  Organise "course_work" with respect to job_details and don't add new courses other than which are present in the resume_json and keep as many as possible even if they don't match with the job_details.
+        - Organise "course_work" with respect to job_details and don't add new courses other than which are present in the resume_json and keep as many as possible even if they don't match with the job_details.
     """
 
     messages = [
@@ -129,6 +129,10 @@ resume_gen_functions = [
                             "summary": {
                                 "type": "string",
                                 "description": "Summary of work in 3-4 lines make sure you don't add any extra details",
+                            },
+                            "skills": {
+                                "type": "string",
+                                "description": "Skills or technologies / frameworks used in the project",
                             },
                         },
                     },
