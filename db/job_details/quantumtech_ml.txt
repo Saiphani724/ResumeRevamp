@@ -1,0 +1,37 @@
+company : QuantumTech
+Machine Learning Engineer
+
+Description
+
+This engineer will be training and testing Machine Learning implementations to improve classification and performance of the sonar system, integrate it into Navy prototypes and ensure that the Navy operator can understand and utilize the information presented. Understanding of signal processing is preferred.
+
+Skills
+
+machine learning, artificial intelligence, ai, signal processing, python, pytorch, accoustics, tensorflow
+
+Top Skills Details
+
+machine learning,artificial intelligence,ai,signal processing,python,pytorch
+
+Additional Skills & Qualifications
+
+Acoustics and signal processing Experience with Python or Pytorch or tensorflow
+
+Experience Level
+
+Intermediate Level
+
+Diversity, Equity & Inclusion
+
+At Actalent, Diversity And Inclusion Are a Bridge Towards The Equity And Success Of Our People. DE&I Are Embedded Into Our Culture Through
+
+Hiring diverse talent
+Maintaining an inclusive environment through persistent self-reflection
+Building a culture of care, engagement, and recognition with clear outcomes
+Ensuring growth opportunities for our people
+
+Actalent is an equal opportunity employer.
+
+About Actalent
+
+Actalent connects passion with purpose. We help visionary companies advance their engineering and science initiatives through access to specialized experts that drive scale, innovation, and speed to market. With a network of almost 30,000 engineering and sciences consultants and more than 4,500 clients across the U.S., Canada, Asia, and Europe, Actalent serves many of the Fortune 500. An operating company of Allegis Group, the global leader in talent solutions, Actalent launched as a new specialized engineering and sciences services and workforce solutions brand in 2021.
