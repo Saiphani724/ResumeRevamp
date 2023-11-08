@@ -31,6 +31,8 @@
             background: #f7f7f7;
             margin: 1rem;
             padding: 2rem;
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
             border-radius: 15px;
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
         }
@@ -142,6 +144,16 @@
             }
         }
 
+        #errorMessage {
+            color: #e53e3e;
+            /* Tailwind's red-600 */
+            margin-top: 0.5rem;
+            /* Adjust the margin-top as needed */
+            font-size: 0.75rem;
+            /* Very small font size */
+        }
+
+
         /* Button styles */
         .revamp-button {
             width: auto;
@@ -156,8 +168,6 @@
         .hidden {
             display: none;
         }
-
-        
     </style>
 </head>
 
@@ -173,10 +183,12 @@
                     <div class="loader-text">Loading...</div>
                 </div>
                 <!-- Button, initially shown -->
-                <button id="revampResume"
-                    class="revamp-button px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700 focus:outline-none focus:bg-blue-700">
+                <button id="revampResume" class="revamp-button ...">
                     Revamp your Resume
                 </button>
+                <!-- Error Message Container, initially hidden -->
+                <div id="errorMessage" class="hidden text-red-600 mt-2 text-xs"></div>
+                <!-- The error message is now part of the buttonOrLoader div -->
             </div>
         </div>
         <textarea id="resumeText" class="form-textarea w-full border-gray-300 rounded-md shadow-sm"
@@ -194,6 +206,42 @@
     </div>
 
     <script>
+        var funMessages = [
+            "Stitching together the best words just for you—seamlessly.",
+            "ChatGPT at work... Please, no autographs.",
+            "I'm crafting your resume masterpiece – no coffee breaks needed.",
+            "If resumes were food, yours would be a five-star feast.",
+            "Deploying my AI brain cells... They're overachievers.",
+            "Sprinkling some AI magic on your resume, Hogwarts-style.",
+            "Consulting my thesaurus... It's a real page-turner.",
+            "Let's hope the AI doesn't start writing a sequel to your career.",
+            "Running the 'impress-the-recruiter' algorithm. Spoiler: It works.",
+            "Calculating the optimum word arrangement with quantum efficiency.",
+            "Resume building is like Tetris, but I never lose at Tetris.",
+            "Cross-referencing your skills with the Encyclopedia of Everything.",
+            "I'm the AI whisperer for your career story.",
+            "Polishing your resume with the gloss of success and a touch of AI finesse.",
+            "Aligning the stars in your career sky. Just a moment.",
+            "Beep boop! I'm tuning your resume to the frequency of 'hired'.",
+            "Composing your career symphony with a touch of AI harmony.",
+            "Elevating your professional narrative to bestseller status.",
+            "Enlisting the help of AI muses to write your career odyssey.",
+            "Weaving a professional tapestry that's uniquely you.",
+            "Turning your career journey into a legend with a little AI help.",
+            "Sharpening your resume until it cuts through the competition.",
+            "AI at the helm! Steering your resume towards the job haven.",
+            "Revving up the resume engine—ready to take off!",
+            "Infusing your resume with a secret ingredient: AI elixir."
+        ];
+
+        function setRandomMessage() {
+            var randomIndex = Math.floor(Math.random() * funMessages.length);
+            var randomFunMessage = funMessages[randomIndex];
+            var loaderText = document.querySelector('.loader-text'); // Make sure this selects the correct element
+            loaderText.textContent = randomFunMessage;
+        }
+
+
         document.getElementById('revampResume').addEventListener('click', function () {
             this.classList.add('hidden');
 
@@ -202,28 +250,17 @@
             loader.classList.remove('hidden');
             var loaderText = document.querySelector('.loader-text'); // Get the loader text element
 
-            var funMessages = [
-                "Stitching together the best words just for you—seamlessly.",
-                "ChatGPT at work... Please, no autographs.",
-                "I'm crafting your resume masterpiece – no coffee breaks needed.",
-                "If resumes were food, yours would be a five-star feast.",
-                "Deploying my AI brain cells... They're overachievers.",
-                "Sprinkling some AI magic on your resume, Hogwarts-style.",
-                "Consulting my thesaurus... It's a real page-turner.",
-                "Let's hope the AI doesn't start writing a sequel to your career.",
-                "Running the 'impress-the-recruiter' algorithm. Spoiler: It works.",
-                "Calculating the optimum word arrangement with quantum efficiency.",
-                "Resume building is like Tetris, but I never lose at Tetris.",
-                "Cross-referencing your skills with the Encyclopedia of Everything.",
-                "I'm the AI whisperer for your career story.",
-            ];
+
+
+            setRandomMessage(); // Set the first random message
+
+            messageInterval = setInterval(setRandomMessage, 10000);
+
 
             // Pick a random fun message
             var randomIndex = Math.floor(Math.random() * funMessages.length);
             var randomFunMessage = funMessages[randomIndex];
             loaderText.textContent = randomFunMessage; // Set the random fun message
-
-
 
             var resumeTxt = document.getElementById('resumeText').value;
             var jobDetails = document.getElementById('jobDetails').value;
@@ -268,7 +305,22 @@
                     // In case of error, also hide the loader and show the button
                     loader.classList.add('hidden'); // Hide loader
                     document.getElementById('revampResume').classList.remove('hidden'); // Show button
+
+                    // Show error message
+                    var errorMessage = document.getElementById('errorMessage');
+                    errorMessage.textContent = "Oops! Something went wrong. Please try again."; // You can customize this message
+                    errorMessage.classList.remove('hidden'); // Show the error message
+                    errorMessage.style.visibility = 'visible'; // Make the error message visible
+                    errorMessage.style.opacity = '1'; // Set opacity to 1 for transition
                 });
+
+        });
+
+        document.getElementById('revampResume').addEventListener('click', function () {
+            var errorMessage = document.getElementById('errorMessage');
+            errorMessage.classList.add('hidden'); // Hide the error message
+            errorMessage.style.visibility = 'hidden'; // Make the error message invisible
+            errorMessage.style.opacity = '0'; // Set opacity to 0 for transition
         });
 
     </script>
