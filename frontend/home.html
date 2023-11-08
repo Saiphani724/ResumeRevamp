@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #edf2f7;
+            font-family: 'Roboto', sans-serif;
+            /* Roboto for body text */
+        }
+
+        .box {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            max-height: calc(100vh - 2rem);
+            width: calc(50% - 2rem);
+            background: #f7f7f7;
+            margin: 1rem;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+
+        h2 {
+            font-family: 'Source Sans Pro', serif;
+            /* This is for a classic look */
+            font-weight: 700;
+            font-size: x-large;
+            /* Adjust the weight as needed */
+        }
+
+        .job-details-heading {
+            margin-bottom: 1rem;
+            /* This is an example value, adjust as needed */
+        }
+
+        /* Adjust the button styles as needed */
+        .box button {
+            padding: 0.5rem 1rem;
+            background-color: #4a5568;
+            color: white;
+            border: none;
+            border-radius: 0.375rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            /* Set a specific width if required or leave as auto */
+            width: auto;
+        }
+
+        /* ... other CSS styles ... */
+
+
+        .box textarea {
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border: 1px solid #d1d5db;
+            border-radius: 0.375rem;
+            height: 100vh;
+            overflow-y: auto;
+            resize: none;
+            font-size: 0.875rem;
+            background: #f0f0f0;
+            /* Roboto for textarea */
+        }
+
+        .box button:hover {
+            background-color: #2d3748;
+        }
+
+        .box button:active {
+            background-color: #1a202c;
+        }
+
+        /* Container for the heading and loader */
+        .flex.justify-between.items-center.mb-4 {
+            position: relative;
+            /* Ensure positioning is relative to this container */
+        }
+
+        /* Loader styles */
+        .loader {
+            position: absolute;
+            top: 50%;
+            /* Center vertically in the button space */
+            left: 100%;
+            /* Position to the right end of the button */
+            transform: translate(-100%, -50%);
+            /* Adjust for the loader's dimensions */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: auto;
+            /* Let the width be as per content */
+            margin-right: 20px;
+            /* Right margin */
+        }
+
+        .loader .loader-icon {
+            border: 4px solid #f3f3f3;
+            border-radius: 50%;
+            border-top: 4px solid #3498db;
+            width: 24px;
+            /* Smaller loader icon */
+            height: 24px;
+            /* Smaller loader icon */
+            animation: spin 1s linear infinite;
+        }
+
+        .loader .loader-text {
+            text-align: center;
+            /* Center-align the text */
+            font-size: 0.875rem;
+            color: #4a5568;
+            white-space: nowrap;
+            /* Prevent wrapping */
+        }
+
+        /* ... other styles ... */
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Button styles */
+        .revamp-button {
+            width: auto;
+            /* Adjust the width as needed */
+            transition: background-color 0.3s;
+            /* Other styles remain unchanged */
+        }
+
+        /* ... other CSS styles ... */
+
+        /* When loading, the button is hidden and the loader is shown */
+        .hidden {
+            display: none;
+        }
+
+        
+    </style>
+</head>
+
+<body class="flex justify-center items-start">
+
+    <div class="box">
+        <div class="flex justify-between items-center mb-4">
+            <h2>Resume</h2>
+            <div id="buttonOrLoader" class="relative">
+                <!-- Loader and text, initially hidden -->
+                <div id="loader" class="loader hidden">
+                    <div class="loader-icon"></div>
+                    <div class="loader-text">Loading...</div>
+                </div>
+                <!-- Button, initially shown -->
+                <button id="revampResume"
+                    class="revamp-button px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700 focus:outline-none focus:bg-blue-700">
+                    Revamp your Resume
+                </button>
+            </div>
+        </div>
+        <textarea id="resumeText" class="form-textarea w-full border-gray-300 rounded-md shadow-sm"
+            placeholder="Enter your resume text here"></textarea>
+    </div>
+
+    <div class="box relative">
+        <h2 class="job-details-heading">Job Details</h2>
+        <textarea id="jobDetails" class="form-textarea w-full border-gray-300 rounded-md shadow-sm"
+            placeholder="Enter job description here"></textarea>
+        <div id="loader" class="loader hidden"></div>
+        <button id="openOverleaf" type="button"
+            class="hidden mt-4 px-4 py-2 bg-green-500 text-white rounded hover:bg-green-700 focus:outline-none focus:bg-green-700">Open
+            in Overleaf</button>
+    </div>
+
+    <script>
+        document.getElementById('revampResume').addEventListener('click', function () {
+            this.classList.add('hidden');
+
+            // Show the loader
+            var loader = document.getElementById('loader');
+            loader.classList.remove('hidden');
+            var loaderText = document.querySelector('.loader-text'); // Get the loader text element
+
+            var funMessages = [
+                "Stitching together the best words just for you—seamlessly.",
+                "ChatGPT at work... Please, no autographs.",
+                "I'm crafting your resume masterpiece – no coffee breaks needed.",
+                "If resumes were food, yours would be a five-star feast.",
+                "Deploying my AI brain cells... They're overachievers.",
+                "Sprinkling some AI magic on your resume, Hogwarts-style.",
+                "Consulting my thesaurus... It's a real page-turner.",
+                "Let's hope the AI doesn't start writing a sequel to your career.",
+                "Running the 'impress-the-recruiter' algorithm. Spoiler: It works.",
+                "Calculating the optimum word arrangement with quantum efficiency.",
+                "Resume building is like Tetris, but I never lose at Tetris.",
+                "Cross-referencing your skills with the Encyclopedia of Everything.",
+                "I'm the AI whisperer for your career story.",
+            ];
+
+            // Pick a random fun message
+            var randomIndex = Math.floor(Math.random() * funMessages.length);
+            var randomFunMessage = funMessages[randomIndex];
+            loaderText.textContent = randomFunMessage; // Set the random fun message
+
+
+
+            var resumeTxt = document.getElementById('resumeText').value;
+            var jobDetails = document.getElementById('jobDetails').value;
+
+
+            fetch('http://localhost:8090/resumerevamp/api/v1', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ resumeTxt, jobDetails }),
+            })
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Success:', data);
+                    // Update the snip_uri value with the returned resume_latex data
+                    var overleafSnipTextarea = document.createElement('textarea');
+                    overleafSnipTextarea.name = 'snip';
+                    overleafSnipTextarea.style.display = 'none'; // Hide the textarea as it's not needed to be visible
+                    overleafSnipTextarea.textContent = data.resume_latex;
+
+                    // Create a form element to submit to Overleaf
+                    var overleafForm = document.createElement('form');
+                    overleafForm.action = 'https://www.overleaf.com/docs';
+                    overleafForm.method = 'post';
+                    overleafForm.target = '_blank'; // Open in a new tab
+                    overleafForm.style.display = 'none'; // Hide the form as it's not needed to be visible
+                    overleafForm.appendChild(overleafSnipTextarea);
+
+                    // Append the form to the body and submit it
+                    document.body.appendChild(overleafForm);
+                    overleafForm.submit();
+
+                    // Clean up by removing the form after submission
+                    document.body.removeChild(overleafForm);
+
+                    loader.classList.add('hidden'); // Hide loader
+                    document.getElementById('revampResume').classList.remove('hidden'); // Show button
+                })
+                .catch((error) => {
+                    console.error('Error:', error);
+                    // In case of error, also hide the loader and show the button
+                    loader.classList.add('hidden'); // Hide loader
+                    document.getElementById('revampResume').classList.remove('hidden'); // Show button
+                });
+        });
+
+    </script>
+
+</body>
+
+</html>

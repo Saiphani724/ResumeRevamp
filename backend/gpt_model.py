@@ -23,3 +23,14 @@ class GPTModel:
         )
         result = response.choices[0]['message']['function_call']['arguments']
         return result
+    @retry(wait=wait_random_exponential(min=1, max=40), stop=stop_after_attempt(2))
+    async def get_completion(self, messages, model = None):
+        if model is None:
+            model = self.model
+        response = await openai.ChatCompletion.acreate(
+            model=model,
+            messages=messages,
+            temperature=0,  # this is the degree of randomness of the model's output
+        )
+        result = response.choices[0]["message"]["content"]
+        return result
