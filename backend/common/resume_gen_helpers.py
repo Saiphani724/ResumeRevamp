@@ -1,14 +1,17 @@
 def get_resume_gen_messages(resume_json, job_json):
     prompt = f"""
-        -here id the json format of the resume {resume_json}
+        -here is the json format of the resume {resume_json}
         - Never add extra information to the resume details.
-        - Make use of the job_details {job_json} and use it according to the description provided in the prompt.
+        - Make use of the job details {job_json} and make use of prerequisites and additional information from that .
         - Try to optimize the resume according to the job_details.
         - gpa in education if provided out of 10, convert it to 4 using WES GPA calculator.
-        - summary of the "experience" should be optimised according to the prerequisites and preferred qualifications from job_details.
-        - If there are too many sections in experience, include only the experience details that are relevant to the job_details.
-        - "projects" should be organized similarly to "experience."
-        -  Organise "technical_skills" with respect to job_details.
+        - Don't reduce the number of experiences if at all you want to shorten something try to reduce the summary part for the experiences you feel less important with respect to the job.
+        - If there are too many sections in project, include only the projects that are relevant to the job_details.
+        - summary of the "projects" should be optimised according to the prerequisites and preferred qualifications from job_details.
+        - Try to keep as many projects as possible always try to change the summary of the projects according to the job_details by cutting short the summary and also remove few projects in some cases if you feel it's irrelevant.
+        - Cutting short summary of the projects is the most important thing and don't cut them too short if it's too long like more than 55 words try to cut them short to 40-50 words and follow that ratio and only cut words if it's absolutely necessary.
+        - Organise "technical_skills" with respect to job_details.
+        -  Organise "course_work" with respect to job_details and don't add new courses other than which are present in the resume_json and keep as many as possible even if they don't match with the job_details.
     """
 
     messages = [
@@ -157,15 +160,11 @@ resume_gen_functions = [
                     },
                 },
                 "extra_curriculars": {
-                    "type": "object",
+                    "type": "string",
                     "description": "All extra curriculars details of the candidate must be present in this section, if some details are extra than mentioned in the prompt, add them using camel_case with appriopriate description",
-                    "properties": {
-                        "extra_curriculars": {
-                            "type": "string",
-                            "description": "Extra curriculars",
-                        },
+                    
                     },
-                },
+                
             },
         },
     }

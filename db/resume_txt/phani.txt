@@ -32,6 +32,12 @@ languages like Python, Java, C++ and C along with variable tracking, etc feature
 Quiz App |MERN Stack, ReactJs, Javascript, HTML, NodeJs, MongoDB March 2020
 •An online Quiz Application platform for students to attempt quizzes created by their faculty while also making use of
 features like auto evaluation, scorecard viewer, online discussion portal, previous quiz analysis etc.
+Weighted Ensemble of CNNs to handle loss due to resizing for Object Recognition December 2020
+• A model that uses multiple CNNs of different shapes (portrait, square and landscape) instead of a single CNN for Object
+Recognition problems, and takes the weighted average of multiple CNN outputs for calculating final class probability.
+Real-time Object Detection and Segmentation using Raspberry Pi | Python, TensorFlow, YOLO June 2020
+• A robust system for detection and segmentation of microcontroller components using deep learning and computer vision,
+deployed in Raspberry Pi.
 Bug Fixing Assistance Portal |ReactJs, HTML, Java backend, Http Servlet, Apache Tomcat, XML January 2021
 •A portal to connect users and technical support in order to update users on bugs that need to be addressed and solved.
 PASTA Inference Classification |NLP, Python, TensorFlow, Language Modeling, RoBERTa, T5 November 2022
@@ -39,12 +45,16 @@ PASTA Inference Classification |NLP, Python, TensorFlow, Language Modeling, RoBE
 state for the given story to predict whether the world state is consistent with the inference statement.
 Shadow Removal using Diffusion |Computer Vison, Python, Pytorch, Transformers, Diffusion December 2022
 •A deep learning model that removes the shadow in an image and restores the image contents using Diffusion technique.
+RoverArm | Robotics, Reinforcement Learning, Computer Vision, Pytorch, Transformers, Generative AI May 2023
+• Built a Rover with Robotic Arm and trained it using Reinforcement Learning and Generative AI to pick objects from a
+tray inside a room.
 Technical Skills
-Languages and Databases: JavaScript, TypeScript, Python, Java, C#, SQL, MongoDB, HTML, CSS, C, C++
-Frameworks and Libraries: ReactJS, ExpressJS, NodeJS, NestJs, .NET, Flask, Django, Microsoft Bot Framework,
-PyTorch, TensorFlow, Keras, OpenCV, Scikit learn, SciPy, Flask, Pandas, NumPy
-Skills and Technologies: Full Stack Development, Machine Learning, Linux, Android, Azure, Competitive Programming
-Leadership & Extracurricular
+Languages:
+JavaScript, TypeScript, Python, Java, C#, SQL, MongoDB, HTML, CSS, C, C++, MatLab, .NET
+Frameworks and Libraries:
+ReactJS, ExpressJS, NodeJS, NestJs, .NET, Flask, Django, Microsoft Bot Framework, PyTorch, TensorFlow, Keras, OpenCV, Scikit-learn, SciPy, Pandas, NumPy
+Skills and Technologies:
+Full Stack Development, Machine Learning, Deep Learning, Computer Vision, NLP (Natural Language Processing), Reinforcement Learning, Robotics, Internet of Things, Linux, Android, Azure, Competitive ProgrammingLeadership & Extracurricular
 Senior Member of Code@Amrita June 2018 - July 2021
 •Conducted Workshops teaching Data Structures, Algorithms, and programming languages (Python, Java, C++).
 •Hosted Competitive Programming contests, and Editorial sessions for our and Codechef contests.

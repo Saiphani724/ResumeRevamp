@@ -1,0 +1,78 @@
+Ramp is the ultimate platform for modern finance teams. Combining corporate cards with expense management, bill payments, vendor management, accounting automation and more, Ramp's all-in-one solution is designed to save businesses time and money, and free finance teams to do the best work of their lives. Our mission is to help build healthier businesses, and it’s working: over 15,000 businesses on Ramp save an average 3.5% more and close their books 8x faster.
+
+Founded in 2019, Ramp powers the fastest-growing corporate card and bill payment platform in America, and enables tens of billions of dollars in purchases each year.
+
+Ramp's investors include Founders Fund, Stripe, Citi, Goldman Sachs, Coatue Management, D1 Capital Partners, Redpoint Ventures, General Catalyst, and Thrive Capital, as well as over 100 angel investors who were founders or executives of leading companies. The Ramp team comprises talented leaders from leading financial services and fintech companies—Stripe, Affirm, Goldman Sachs, American Express, Mastercard, Visa, Capital One—as well as technology companies such as Meta, Uber, Netflix, Twitter, Dropbox, and Instacart. In 2023, Ramp was named Fast Company’s #1 Most Innovative Company in North America, a CNBC Disruptor, and a TIME100 Most Influential Company.
+
+Check out our Engineering Blog for more on our tech stack, mission and values!
+
+About the Role
+
+Ramp is, at its core, an engineering company, and is on a mission to build the best engineering team in the US! We are looking for frontend and full stack engineering interns (12 weeks) who are excited to be part of our early story and help us build a diverse and vibrant tech community. We hire engineers with a broad set of technical skills, who are highly cross-functional, and eager to solve a wide range of engineering challenges. Our ideal candidate has a strong sense of ownership and enjoys owning projects from inception to scaling it in production. We value people who take pride in their work, and show an aptitude for learning quickly whether they’re familiar with our stack or not. As an early employee, you'll be working with a nimble team of committed and talented engineers and having a large, long-term impact on technical design and engineering culture.
+
+What You'll Do
+
+Build performant, beautiful, and usable interfaces that solve for growing businesses with complex needs
+
+Ship products and services in cross-functional teams
+
+Work with sales and business teams to incorporate and productize customer feedback
+
+Help establish engineering process, tools, and systems that will allow us to scale the code base, productivity, and the team
+
+What You'll Need
+
+Currently pursuing a B.S. (or higher) in Computer Science or a related technical field, with an expected graduation date between 2023 - 2025
+
+Proficiency in JavaScript, with a knack for getting the visuals right
+
+Experience with one or more object-oriented programming languages
+
+Track record of shipping high quality products and features or a portfolio of side projects
+
+Ability to turn business and product ideas into engineering solutions
+
+Desire to work in a fast-paced environment, continuously grow, and master your craft
+
+Alignment with Ramp’s core values of enabling businesses to grow more by spending less
+
+Nice to Haves
+
+Proficiency in React v16+
+
+Familiarity with or desire to learn our tech stack which includes, but not limited to: Flask (Python), Elixir, AWS, RabbitMQ, PostgreSQL
+
+Passion for, or curiosity to learn, financial technology
+
+Compensation
+
+The hourly rate for this internship in is $60 USD + housing stipend
+
+Ramp Benefits (for U.S. based employees)
+
+M1 Pro Macbook Pro
+
+Catered Lunches in NYC office Tuesdays, Wednesdays and Thursdays
+
+Benefits (for U.S.-based full-time employees)
+100% medical, dental & vision insurance coverage for you
+
+Partially covered for your dependents
+
+One Medical annual membership
+
+401k (including employer match on contributions made while employed by Ramp)
+
+Flexible PTO
+
+Fertility HRA (up to $5,000 per year)
+
+WFH stipend to support your home office needs
+
+Wellness stipend
+
+Parental Leave
+
+Relocation support
+
+Pet insurance
