@@ -10,8 +10,9 @@ def get_resume_gen_messages(resume_json, job_json):
         - summary of the "projects" should be optimised according to the prerequisites and preferred qualifications from job_details.
         - Try to keep as many projects as possible always try to change the summary of the projects according to the job_details by cutting short the summary and also remove few projects in some cases if you feel it's irrelevant.
         - Cutting short summary of the projects is the most important thing and don't cut them too short if it's too long like more than 55 words try to cut them short to 40-50 words and follow that ratio and only cut words if it's absolutely necessary.
-        - Organise "technical_skills" with respect to job_details.
+        - Organise "technical_skills" with respect to job_details try to remove some if the skills are like more than 10.
         - Organise "course_work" with respect to job_details and don't add new courses other than which are present in the resume_json and keep as many as possible even if they don't match with the job_details.
+        - Keep "extra_curriculars" as it is and don't add any new extra curriculars.
     """
 
     messages = [
@@ -164,9 +165,18 @@ resume_gen_functions = [
                     },
                 },
                 "extra_curriculars": {
-                    "type": "string",
-                    "description": "All extra curriculars details of the candidate must be present in this section, if some details are extra than mentioned in the prompt, add them using camel_case with appriopriate description",
-                    
+                    "type": "array",
+
+                    "items": {
+                        "description": "All extra curriculars details of the candidate must be present in this section, if some details are extra than mentioned in the prompt, add them using camel_case with appriopriate description",
+                        "properties": {
+                            "title":{"type":"string","description":"Title of the extra curricular"},
+                            "summary": {
+                                "type": "string",
+                                "description": "Summary of the extra curricular"
+                            }
+                        }
+                              }
                     },
                 
             },

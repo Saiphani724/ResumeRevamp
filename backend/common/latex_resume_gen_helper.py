@@ -4,8 +4,10 @@ def get_resume_latex_gen_messages(resume_new):
     system_message = '''
         generate proper latex resume using the given json resume.
         Don't skip anything that is present in the json resume.
+        Personal Details should be on the top of the resume.
         Keep it as compact as possible. Try to fit everything in one page. 
         Use the space wisely. Adjust the font size and margins accordingly. 
+        for the projects section keep skills and summary in the same line.
         If the content is too long for a single page use reduce the font size and margins, but make sure that the content is readable.
         No overlaps should be there in the resume. 
         Do not add any comments in the start or end or anywhere in the latex resume.
