@@ -2,6 +2,7 @@ from pydantic import BaseModel
 from resume_gen import parse_resume, parse_job_details, generate_resume, generate_latex_resume
 from fastapi.responses import RedirectResponse
 # from common.constants import job_details_json, resume_json
+from fastapi.responses import HTMLResponse
 import time
 
 def register_routes(app):
@@ -12,11 +13,13 @@ def register_routes(app):
 
     @app.get("/")
     async def index():
-        return RedirectResponse(url="/resumerevamp/api/v1")
+        return RedirectResponse(url="/resumerevamp/ui/v1")
     
-    @app.get("/resumerevamp/api/v1")
+    @app.get("/resumerevamp/ui/v1")
     async def home():
-        return "Server is up and running!"
+        with open('frontend/home.html', 'r') as file:
+            html_content = file.read()
+        return HTMLResponse(content=html_content, status_code=200)
 
     @app.post(f"/resumerevamp/api/v1")
     async def revamp_resume(body: RequestBody):
