@@ -168,6 +168,14 @@
         .hidden {
             display: none;
         }
+
+        /* Custom CSS for the comments textarea */
+#comments {
+    height: 250px; /* Example height, adjust as needed */
+    /* Other styles can be added here if necessary */
+}
+
+
     </style>
 </head>
 
@@ -199,10 +207,14 @@
         <h2 class="job-details-heading">Job Details</h2>
         <textarea id="jobDetails" class="form-textarea w-full border-gray-300 rounded-md shadow-sm"
             placeholder="Enter job description here"></textarea>
+            <h2 class="job-details-heading">Comments</h2>
+            <textarea id="comments" class="form-textarea w-full border-gray-300 rounded-md shadow-sm"
+            placeholder="Enter your comments here"></textarea>
         <div id="loader" class="loader hidden"></div>
         <button id="openOverleaf" type="button"
             class="hidden mt-4 px-4 py-2 bg-green-500 text-white rounded hover:bg-green-700 focus:outline-none focus:bg-green-700">Open
             in Overleaf</button>
+        <div id="threadIdDisplay" class="hidden mt-2 text-sm text-gray-600"></div>
     </div>
 
     <script>
@@ -241,7 +253,7 @@
             loaderText.textContent = randomFunMessage;
         }
 
-
+        localStorage.removeItem('threadId'); // Remove the threadId from localStorage
         document.getElementById('revampResume').addEventListener('click', function () {
             this.classList.add('hidden');
 
@@ -264,6 +276,9 @@
 
             var resumeTxt = document.getElementById('resumeText').value;
             var jobDetails = document.getElementById('jobDetails').value;
+            var comments = document.getElementById('comments').value;
+
+            var threadId = localStorage.getItem('threadId') || '';
 
 
             fetch('http://localhost:8090/resumerevamp/api/v1', {
@@ -271,11 +286,13 @@
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify({ resumeTxt, jobDetails }),
+                body: JSON.stringify({ resumeTxt, jobDetails, threadId, comments }),
             })
                 .then(response => response.json())
                 .then(data => {
                     console.log('Success:', data);
+                    localStorage.setItem('threadId', data.thread_id);
+
                     // Update the snip_uri value with the returned resume_latex data
                     var overleafSnipTextarea = document.createElement('textarea');
                     overleafSnipTextarea.name = 'snip';
