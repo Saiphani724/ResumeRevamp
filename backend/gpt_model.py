@@ -88,11 +88,11 @@ class GPTAssistantModel():
                         role=message['role'],
                         content=message['content']
                 )
-            print(messages)
+            # print(messages)
             # Run the assistant
             run = self.client.beta.threads.runs.create(
                 thread_id=thread_id,
-                assistant_id= "asst_fZWFtRb65sknRD0FoLNBDq1R"
+                assistant_id= "asst_lec4DttBXFQfyZ2xzPcUJAto"
             )
             # Wait for the run to complete
             wait_for_run_completion(self.client, thread.id, run.id)
