@@ -39,6 +39,6 @@ def generate_latex_resume(resume_json, job_details_json, comments, thread_id):
             "role": "user",
             "content": comments,
         }]
-    print(messages)
+    #print(messages)
     resume_latex, thread_id = model.get_completion(messages, thread_id)
     return resume_latex, thread_id
