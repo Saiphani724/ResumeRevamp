@@ -1,13 +1,14 @@
+from common.constants import assistant_instructions
 def get_resume_gen_messages(resume_json, job_json, comments):
     prompt = f"""
         -here is the json format of the resume {resume_json}
         - Make use of the job details {job_json} and make use of prerequisites and additional information from that .
-    """ 
+    """
 
     messages = [
         {
-            "role": "user",
-            "content": "extract details from resume and generate proper latex resume using the given json resume",
+            "role": "system",
+            "content": assistant_instructions,
         },
         {
             "role": "user",

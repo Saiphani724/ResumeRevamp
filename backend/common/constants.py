@@ -152,7 +152,6 @@ You are a resume maker.
 
 - Never add extra information to the resume details.
         - Try to optimize the resume according to the job_details.
-        - gpa in education if provided out of 10, convert it to 4 using WES GPA calculator.
         - Don't reduce the number of experiences if at all you want to shorten something try to reduce the summary part for the experiences you feel less important with respect to the job.
         - If there are too many sections in project, include only the projects that are relevant to the job_details.
         - summary of the "projects" should be optimised according to the prerequisites and preferred qualifications from job_details.
@@ -171,5 +170,11 @@ generate proper latex resume using the given json resume.
         Compiling that should give a proper pdf.
         give the output latex as a string. DO NOT ADD ANY quotes or text in the start or end of the latex resume.
 The final output should be ONLY LATEX and NOTHING ELSE.
+
+Final Output Format:
+
+```latex
+SINGLE PAGE LATEX RESUME
+```
 
 """

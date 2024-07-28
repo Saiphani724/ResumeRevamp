@@ -62,46 +62,55 @@ def wait_for_run_completion(client, thread_id, run_id, sleep_interval=1):
             break
         time.sleep(sleep_interval)
 
-
+import random
 class GPTAssistantModel():
 
     def __init__(self):
         self.client = OpenAI(api_key=os.environ['OPENAI_API_KEY'])
     
     def get_completion(self, messages, thread_id):
-            if thread_id == '':
-                print('Using new thread...')
-                thread = self.client.beta.threads.create()
-                thread_id = thread.id
-                for message in messages:
-                    self.client.beta.threads.messages.create(
-                        thread_id=thread_id,
-                        role=message['role'],
-                        content=message['content']
-                )
-            else: 
-                print('Using retrieved thread...')
-                thread = self.client.beta.threads.retrieve(thread_id)
-                for message in messages:
-                    self.client.beta.threads.messages.create(
-                        thread_id=thread_id,
-                        role=message['role'],
-                        content=message['content']
-                )
+            # if thread_id == '':
+            #     thread_id = random.randint(0, 1000000)
+            response = self.client.chat.completions.create(
+                model="gpt-4o-mini",
+                messages=messages
+            )
+            result = response.choices[0].message.content
+            print(result)
+            return result, thread_id
+
+            #     print('Using new thread...')
+            #     thread = self.client.beta.threads.create()
+            #     thread_id = thread.id
+            #     for message in messages:
+            #         self.client.beta.threads.messages.create(
+            #             thread_id=thread_id,
+            #             role=message['role'],
+            #             content=message['content']
+            #     )
+            # else:
+            #     print('Using retrieved thread...')
+            #     thread = self.client.beta.threads.retrieve(thread_id)
+            #     for message in messages:
+            #         self.client.beta.threads.messages.create(
+            #             thread_id=thread_id,
+            #             role=message['role'],
+            #             content=message['content']
+            #     )
             # print(messages)
-            # Run the assistant
-            run = self.client.beta.threads.runs.create(
-                thread_id=thread_id,
-                assistant_id= "asst_lec4DttBXFQfyZ2xzPcUJAto"
-            )
-            # Wait for the run to complete
-            wait_for_run_completion(self.client, thread.id, run.id)
+            # # Run the assistant
+            # run = self.client.beta.threads.runs.create(
+            #     thread_id=thread_id,
+            #     assistant_id= "asst_gwBmZmcUdOjTqR35NqsD0FUR"
+            # )
+            # # Wait for the run to complete
+            # wait_for_run_completion(self.client, thread.id, run.id)
 
-            # Retrieve the last message in the thread
-            messages = self.client.beta.threads.messages.list(
-                thread_id=thread.id
-            )
+            # # Retrieve the last message in the thread
+            # messages = self.client.beta.threads.messages.list(
+            #     thread_id=thread.id
+            # )
 
-            last_message = messages.data[0]
-            response = last_message.content[0].text.value
-            return response, thread.id
+            # last_message = messages.data[0]
+            # response = last_message.content[0].text.value
+            # return response, thread.id

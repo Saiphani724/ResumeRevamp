@@ -29,18 +29,17 @@ def register_routes(app):
         job_details = body.jobDetails
         comments = body.comments
         thread_id = body.threadId
-        
         start_time = time.time()
-        if thread_id == "":
-            resume_json = await parse_resume(resume)
-            resume_parsing_end_time = time.time()
-            print("Resume Parsed in %f seconds" % (resume_parsing_end_time - start_time))
-            job_details_json = await parse_job_details(job_details)
-            jd_parsing_end_time = time.time()
-            print("Job Details Parsed in %f seconds" % (jd_parsing_end_time - resume_parsing_end_time))
-        else:
-            resume_json = ""
-            job_details_json = ""
+        # if thread_id == "":
+        resume_json = await parse_resume(resume)
+        resume_parsing_end_time = time.time()
+        print("Resume Parsed in %f seconds" % (resume_parsing_end_time - start_time))
+        job_details_json = await parse_job_details(job_details)
+        jd_parsing_end_time = time.time()
+        print("Job Details Parsed in %f seconds" % (jd_parsing_end_time - resume_parsing_end_time))
+        # else:
+        #     resume_json = ""
+        #     job_details_json = ""
         # resume_new = await generate_resume(resume_json, job_details_json)
         # resume_gen_end_time = time.time()
         # print(resume_new)

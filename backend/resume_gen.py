@@ -4,9 +4,9 @@ from common.latex_resume_gen_helper import get_resume_latex_gen_messages
 from gpt_model import GPTModel, GPTAssistantModel
 import json
 
-model_gpt35 = GPTModel("gpt-3.5-turbo-0613")
+model_gpt35 = GPTModel("gpt-4o-mini")
 # model_gpt4 = GPTModel("gpt-4-0613")
-model_gpt4 = GPTModel("gpt-4-1106-preview")
+model_gpt4 = GPTModel("gpt-4o")
 
 model = GPTAssistantModel()
 
@@ -32,13 +32,13 @@ async def parse_job_details(job_details):
 
 
 def generate_latex_resume(resume_json, job_details_json, comments, thread_id):
-    if thread_id == "":
-        messages = get_resume_gen_messages(resume_json, job_details_json, comments)
-    else:
-        messages = [{
-            "role": "user",
-            "content": comments,
-        }]
+    # if thread_id == "":
+    messages = get_resume_gen_messages(resume_json, job_details_json, comments)
+    # else:
+    #     messages = [{
+    #         "role": "user",
+    #         "content": comments,
+    #     }]
     #print(messages)
     resume_latex, thread_id = model.get_completion(messages, thread_id)
     return resume_latex, thread_id
