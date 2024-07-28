@@ -41,4 +41,6 @@ def generate_latex_resume(resume_json, job_details_json, comments, thread_id):
     #     }]
     #print(messages)
     resume_latex, thread_id = model.get_completion(messages, thread_id)
+    resume_latex = resume_latex.replace("```latex", "")
+    resume_latex = resume_latex.replace("```", "")
     return resume_latex, thread_id
